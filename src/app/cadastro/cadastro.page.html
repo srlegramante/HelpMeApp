@@ -1,12 +1,4 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-buttons slot="start">
-      <ion-back-button></ion-back-button>
-    </ion-buttons>
 
-    <ion-title>Cadastro</ion-title>
-  </ion-toolbar>
-</ion-header>
 
 <ion-content>
   <form [formGroup]="formCadastro">
@@ -67,4 +59,8 @@
 
     <ion-button expand="block" (click)="salvarCadastro()" >Salvar</ion-button>
   </form>
+  <ion-item>
+    <ion-label>Faça o login se já possui uma conta!</ion-label>
+    <a href="login">Logar-se</a>
+  </ion-item>
 </ion-content>

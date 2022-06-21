@@ -16,7 +16,6 @@ export class HomePage {
   async buscarUsuarios(){
     this.listaUsuarios = await this.storageService.getAll();
   }
-
   ionViewDidEnter(){
     this.buscarUsuarios();
   }

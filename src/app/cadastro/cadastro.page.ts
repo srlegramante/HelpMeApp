@@ -69,3 +69,4 @@ export class CadastroPage implements OnInit {
     }
   }
 }
+

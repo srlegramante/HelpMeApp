@@ -1,0 +1,31 @@
+<ion-content color="dark">
+
+	<form [formGroup]="formLogin">
+		<ion-item class="text-white">
+			<ion-label position="floating">
+				<ion-icon name="mail" item-start></ion-icon>
+				E-mail
+			</ion-label>
+			<ion-input type="text" formControlName="email"></ion-input>
+		</ion-item>
+		<div *ngIf="formLogin.controls.email.errors" class="px-3 text-danger">
+			<p *ngIf="formLogin.controls.email.errors.required"><small>Campo obrigatório</small></p>
+			<p *ngIf="formLogin.controls.email.errors.pattern"><small>Formato inválido</small></p>
+		</div>
+
+		<ion-item class="text-white">
+			<ion-label position="floating">
+				<ion-icon name="key-outline" item-start></ion-icon>
+				Senha
+			</ion-label>
+			<ion-input type="password" formControlName="password"></ion-input>
+		</ion-item>
+		<div *ngIf="formLogin.controls.email.errors" class="px-3 text-danger">
+			<p *ngIf="formLogin.controls.password.errors.required"><small>Campo obrigatório</small></p>
+		</div>
+		<br><br>
+
+		<ion-button size="large" color="success" expand="full" type="submit" [disabled]="!formLogin.valid" (click)="login()">Login</ion-button>
+	</form>
+
+</ion-content>
