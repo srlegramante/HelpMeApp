@@ -1,7 +1,7 @@
 # HelpMeApp
 Projeto TCC curso Desenvolvimento de sistemas. 
 Com o intuito de ajudar microempreendedores! Veja mais sobre o projeto abaixo, ou teste em sua maquina.
-Atenção! Cot conta da pandemia e demais imprevistos durante o curso, não tivemos tempo o suficiente para finaliza-lo....
+Atenção! Por conta da pandemia e demais imprevistos durante o curso, não tivemos tempo o suficiente para finaliza-lo....
 O projeto ficou bom e muito bem estruturado mesmo sendo desenvolvido em pouco tempo. 
 
 <h1>Login page<h1>
